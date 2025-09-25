@@ -19,7 +19,7 @@ function Navbar() {
             to="/"
             className={({ isActive }) => `font-medium ${isActive ? 'text-yellow-400' : 'text-black'} hover:text-gray-500`}
           >
-            Pagina1
+            Página1
           </NavLink>
         </li>
         <li>
@@ -27,7 +27,7 @@ function Navbar() {
             to="/audio"
             className={({ isActive }) => `font-medium ${isActive ? 'text-yellow-400' : 'text-black'} hover:text-gray-500`}
           >
-            Pagina2
+            Página2
           </NavLink>
         </li>
         <li>
@@ -35,7 +35,7 @@ function Navbar() {
             to="/camera"
             className={({ isActive }) => `font-medium ${isActive ? 'text-yellow-400' : 'text-black'} hover:text-gray-500`}
           >
-            Pagina3
+            Página3
           </NavLink>
         </li>
         <li>
@@ -43,7 +43,7 @@ function Navbar() {
             to="/sobre"
             className={({ isActive }) => `font-medium ${isActive ? 'text-yellow-400' : 'text-black'} hover:text-gray-500`}
           >
-            Pagina4
+            Página4
           </NavLink>
         </li>
       </ul>
