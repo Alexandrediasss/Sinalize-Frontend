@@ -8,7 +8,7 @@ function Navbar() {
     <nav className="relative w-full bg-white px-6 md:px-10 py-4 flex items-center justify-between shadow-md">
       <NavLink to="/" onClick={() => setIsOpen(false)}>
         <div className="flex items-center gap-x-3">
-          <div className="h-9 w-9 bg-yellow-400 rounded-full"></div>
+          <div className="h-9 w-9 bg-yellow-300 rounded-full"></div>
           <span className="text-black font-bold text-xl">Sinalize</span>
         </div>
       </NavLink>
