@@ -1,7 +1,7 @@
 import './App.css'
-import Home from '../../components/HomePage/home'
-import Sinalize from '../../components/HomePage/sinalize'
-import StartHere from '../../components/HomePage/startHere'
+import Home from './components/home'
+import Sinalize from './components/sinalize'
+import StartHere from './components/startHere'
 
 function App() {
 
