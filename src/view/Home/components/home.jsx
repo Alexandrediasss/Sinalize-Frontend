@@ -1,6 +1,6 @@
 function Home() {
   return (
-    <div className="flex items-start justify-start py-16 px-4 sm:px-6 lg:px-8">
+    <div className="h-screen flex items-center justify-start px-4 sm:px-6 lg:px-8">
       <div className="max-w-2xl w-full">
         <div className="flex flex-col space-y-6">
           <h1 className="text-black font-bold text-4xl sm:text-5xl">

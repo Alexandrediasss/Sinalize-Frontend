@@ -13,7 +13,7 @@ function StartHere() {
                     </p>
                 </div>
                 <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2">
-                    <div className="flex flex-col justify-between rounded-2xl bg-white p-8 shadow-lg">
+                    <div className="flex flex-col justify-between rounded-2xl bg-white p-8 shadow-lg cursor-pointer">
                         <div>
                             <h3 className="text-xl font-bold">
                                 Lorem ipsum dolor sit amet
@@ -26,7 +26,7 @@ function StartHere() {
                             <CircleArrowOutUpRight className="h-8 w-8" />
                         </div>
                     </div>
-                    <div className="flex flex-col justify-between rounded-2xl bg-amber-400 p-8 shadow-lg">
+                    <div className="flex flex-col justify-between rounded-2xl bg-amber-400 p-8 shadow-lg cursor-pointer">
                         <div>
                             <h3 className="text-xl font-bold">
                                 Lorem ipsum dolor sit amet
