@@ -1,9 +1,17 @@
-import React from "react"
+import './App.css'
+import HeroSobre from "./components/HeroSobre/HeroSobre"
+import OQueE from "./components/OQueE/OQueE"
+import EquipeValores from "./components/EquipeValores/EquipeValores"
 
-const SobrePage = () => {
+const Sobre = () => {
     return (
-        <h1>SobrePage</h1>
-    )
-}
+        
+        <main>
+            <HeroSobre />
+            <OQueE />
+            <EquipeValores />
+        </main>
+    );
+};
 
-export default SobrePage
+export default Sobre;

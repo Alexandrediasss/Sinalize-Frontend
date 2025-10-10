@@ -43,7 +43,7 @@ function Navbar() {
             to="/sobre"
             className={({ isActive }) => `font-medium ${isActive ? 'text-yellow-400' : 'text-black'} hover:text-gray-500`}
           >
-            Página4
+            Sobre
           </NavLink>
         </li>
       </ul>
