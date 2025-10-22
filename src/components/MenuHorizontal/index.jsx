@@ -19,7 +19,7 @@ function Navbar() {
             to="/"
             className={({ isActive }) => `font-medium ${isActive ? 'text-yellow-400' : 'text-black'} hover:text-gray-500`}
           >
-            Página1
+            Início
           </NavLink>
         </li>
         <li>

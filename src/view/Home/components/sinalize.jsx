@@ -5,15 +5,15 @@ function Sinalize() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center text-center md:text-left">
           <div>
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-              Sinalize: <br /> o que é?
+              Sinalize: <br /> O que é?
             </h2>
           </div>
           <div>
             <p className="text-lg leading-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua. Ut enim ad minim veniam, quis nostrud
-              exercitation ullamco.
+              "Sinalize" é uma plataforma dedicada á
+              <strong> tradução da Língua Brasileira de Sinais (Libras)</strong>. 
+              Nosso objetivo é quebrar as barreiras de comunicação entre ouvintes e a comunidade surda, 
+              utilizando tecnologia para oferecer traduções em tempo real de forma acessível e inclusiva.
             </p>
           </div>
 
