@@ -9,7 +9,7 @@ const OQueE = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center text-center md:text-left">
           <div>
             <h2 className="text-3xl font-bold tracking-tight text-black sm:text-4xl">
-              Por que usar o <br /> Sinalize ?
+              Por que usar o Sinalize ?
             </h2>
           </div>
       
