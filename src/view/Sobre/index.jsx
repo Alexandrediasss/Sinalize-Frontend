@@ -5,13 +5,12 @@ import EquipeValores from "./components/EquipeValores/EquipeValores"
 
 const Sobre = () => {
     return (
-        
         <main>
             <HeroSobre />
             <OQueE />
             <EquipeValores />
         </main>
-    );
-};
+    )
+}
 
-export default Sobre;
+export default Sobre

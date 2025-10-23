@@ -1,60 +1,54 @@
 import React, { useState, useEffect } from 'react'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 
-// ======================================================================
-// DEFINIÇÃO DOS SLIDES E DO CONTEÚDO (substitua a SRC pelas suas imagens reais depois)
-// ======================================================================
-const SLIDE_WIDTH_PX = 953;
+const SLIDE_WIDTH_PX = 953
 
 const slides = [
     { 
         key: 1, 
         description: 'Desenvolvedores:',
         names: 'Alexandre Dias, Harrison Ambrosio, Kauã Monteiro, Lilian Almeida, Maria Luiza, Mikael Coelho.',
-        // src: '.../caminho/para/imagem1.jpg'
         textPlaceholder: 'Foto 1 (Desenvolvedores)'
     },
     { 
         key: 2, 
         description: 'Designers:',
         names: 'Fernando Filho, João Vieira, Julyan Éric, Renison Júnior, Sophia Guedes.',
-        // src: '.../caminho/para/imagem2.jpg'
         textPlaceholder: 'Foto 2 (Designers)'
     },
     { 
         key: 3, 
         description: 'Analistas de Pesquisas:',
         names: 'Ana Laura, Alexandre Alencar, Carlos Vasconcelos, Raquel Sales, Rayssa Ramos, Emilly Melissa, Geovana Paiva.',
-        // src: '.../caminho/para/imagem3.jpg'
         textPlaceholder: 'Foto 3 (Analistas)'
     },
-];
+]
 
 const EquipeValores = () => {
-    const [currentSlide, setCurrentSlide] = useState(0);
+    const [currentSlide, setCurrentSlide] = useState(0)
 
     const prevSlide = () => {
         setCurrentSlide((current) => 
             current === 0 ? slides.length - 1 : current - 1
-        );
-    };
+        )
+    }
 
     const nextSlide = () => {
         setCurrentSlide((current) => 
             current === slides.length - 1 ? 0 : current + 1
-        );
-    };
+        )
+    }
     
     useEffect(() => {
         const interval = setInterval(() => {
-            nextSlide();
-        }, 5000); 
-        return () => clearInterval(interval);
-    }, [currentSlide]); 
+            nextSlide()
+        }, 5000)
+        return () => clearInterval(interval)
+    }, [currentSlide])
     
-    const translateValue = -(currentSlide * SLIDE_WIDTH_PX); 
+    const translateValue = -(currentSlide * SLIDE_WIDTH_PX)
 
-    const currentContent = slides[currentSlide];
+    const currentContent = slides[currentSlide]
 
     return (
         <section className="bg-slate-50 py-20 px-4 sm:px-6 lg:px-8">
@@ -114,7 +108,7 @@ const EquipeValores = () => {
                 </div>
             </div>
         </section>
-    );
-};
+    )
+}
 
 export default EquipeValores

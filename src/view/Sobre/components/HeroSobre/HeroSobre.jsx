@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 const HeroSobre = () => {
   return (
     <div className="flex items-center justify-center px-4 py-28 sm:px-6 lg:px-8">
@@ -19,7 +18,7 @@ const HeroSobre = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default HeroSobre

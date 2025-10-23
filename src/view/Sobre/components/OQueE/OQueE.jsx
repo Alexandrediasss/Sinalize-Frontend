@@ -47,7 +47,7 @@ const OQueE = () => {
 
       </div>
     </section>
-  );
-};
+  )
+}
 
 export default OQueE
