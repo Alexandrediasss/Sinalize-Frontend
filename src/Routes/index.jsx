@@ -1,6 +1,7 @@
 import React from "react"
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from "../components/MenuHorizontal/index.jsx"
+import Footer from "../components/Footer/index.jsx"
 import Home from '../view/Home/App.jsx'
 import Audio from '../view/Audio/index.jsx'
 import Camera from '../view/Camera/index.jsx'
@@ -18,7 +19,7 @@ function AppRoutes() {
                     <Route path="/sobre" element={<Sobre />} />
                 </Routes>
             </main>
-           
+            <Footer />
         </BrowserRouter>
     )
 }
