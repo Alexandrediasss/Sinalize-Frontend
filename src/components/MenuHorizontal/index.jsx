@@ -27,7 +27,7 @@ function Navbar() {
             to="/audio"
             className={({ isActive }) => `font-medium ${isActive ? 'text-yellow-400' : 'text-black'} hover:text-gray-500`}
           >
-            Página2
+            Áudio
           </NavLink>
         </li>
         <li>
@@ -35,7 +35,7 @@ function Navbar() {
             to="/camera"
             className={({ isActive }) => `font-medium ${isActive ? 'text-yellow-400' : 'text-black'} hover:text-gray-500`}
           >
-            Página3
+            Câmera
           </NavLink>
         </li>
         <li>
