@@ -1,6 +1,5 @@
 import React, { useState } from "react"
 
-// Ícones SVG como componentes React para facilitar o uso
 const UserIcon = () => (
     <svg className="w-7 h-7 text-gray-600" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
         <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd"></path>
@@ -44,7 +43,7 @@ const AudioPage = () => {
         <main className="p-8 flex-grow bg-gray-100">
             <div className="flex flex-col lg:flex-row gap-8">
 
-                {/* Coluna da Esquerda: Input de Texto */}
+               
                 <div className="w-full lg:w-7/12 bg-white p-6 rounded-2xl shadow-lg">
                     <div className="flex items-center gap-3 mb-5">
                         <div className="w-12 h-12 rounded-full bg-gray-200 flex items-center justify-center">
@@ -88,13 +87,12 @@ const AudioPage = () => {
                                 className="bg-gray-100 text-gray-700 px-4 py-2 rounded-full text-sm hover:bg-gray-200 transition-colors"
                                 onClick={() => setSuggestion("Teste")}
                             >
-                                Teste
+                                Bom dia!
                             </button>
                         </div>
                     </div>
                 </div>
 
-                {/* Coluna da Direita: Visualização 3D */}
                 <div className="w-full lg:w-5/12 bg-black p-6 rounded-2xl shadow-lg flex flex-col h-[500px] lg:h-auto">
                     <div className="flex justify-between items-center mb-4">
                         <div className="flex items-center gap-2">
@@ -104,10 +102,7 @@ const AudioPage = () => {
                         <SettingsIcon />
                     </div>
 
-                    {/* O container de visualização 3D. 
-                      No HTML original, isso usava uma imagem ('mikael.jpeg') que não está no projeto.
-                      Substituí por um fundo cinza como placeholder.
-                    */}
+                    
                     <div className="flex-grow bg-gray-700 rounded-lg flex items-center justify-center text-gray-400">
                         [Local da Animação 3D]
                     </div>
