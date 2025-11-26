@@ -85,7 +85,7 @@ const AudioPage = () => {
                             </button>
                             <button
                                 className="bg-gray-100 text-gray-700 px-4 py-2 rounded-full text-sm hover:bg-gray-200 transition-colors"
-                                onClick={() => setSuggestion("Teste")}
+                                onClick={() => setSuggestion("Bom dia!")}
                             >
                                 Bom dia!
                             </button>
