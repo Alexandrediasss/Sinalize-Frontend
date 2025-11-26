@@ -4,7 +4,6 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader"
 
 import BonecoGlb from "../../assets/3d/boneco.glb"
 
-// ... (Mantenha os ícones UserIcon, TranslateIcon, EyeIcon, SettingsIcon iguais)
 const UserIcon = () => (
     <svg className="w-7 h-7 text-gray-600" fill="currentColor" viewBox="0 0 20 20">
         <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd"></path>
@@ -126,11 +125,6 @@ const AudioPage = () => {
     return (
         <main className="p-8 flex-grow bg-gray-100 min-h-screen">
             <div className="flex flex-col lg:flex-row gap-8 max-w-7xl mx-auto">
-                {/* ALTERAÇÃO 1: 
-                   - Removido h-fit 
-                   - Adicionado flex e flex-col
-                   - Adicionado h-[500px] lg:h-[600px] (igual ao do boneco)
-                */}
                 <div className="w-full lg:w-7/12 bg-white p-6 rounded-2xl shadow-lg flex flex-col h-[500px] lg:h-[600px]">
                     <div className="flex items-center gap-3 mb-5 shrink-0">
                         <div className="w-12 h-12 rounded-full bg-gray-200 flex items-center justify-center">
@@ -138,19 +132,12 @@ const AudioPage = () => {
                         </div>
                         <span className="font-semibold text-lg text-gray-800">Traduz para libras</span>
                     </div>
-
-                    {/* ALTERAÇÃO 2: 
-                       - Removido h-48
-                       - Adicionado flex-grow (para ocupar o espaço restante)
-                    */}
                     <textarea
                         className="w-full flex-grow p-4 border border-gray-200 rounded-lg resize-none focus:outline-none focus:ring-2 focus:ring-[#69ACD5] transition-all"
                         placeholder="Digite aqui o que deseja traduzir..."
                         value={text}
                         onChange={handleTextInput}
                     ></textarea>
-
-                    {/* shrink-0 garante que o footer não seja esmagado */}
                     <div className="flex justify-between items-center mt-4 shrink-0">
                         <span className={`text-sm ${text.length > maxChars ? 'text-red-500' : 'text-gray-500'}`}>
                             Caracteres: {text.length}/{maxChars}
@@ -160,7 +147,6 @@ const AudioPage = () => {
                             Traduzir
                         </button>
                     </div>
-
                     <div className="mt-8 shrink-0">
                         <span className="text-sm text-gray-600 mb-3 block">Sugestões que você pode usar:</span>
                         <div className="flex flex-wrap gap-2">
@@ -169,8 +155,6 @@ const AudioPage = () => {
                         </div>
                     </div>
                 </div>
-
-                {/* Container do Boneco (Mantido com a altura definida) */}
                 <div className="w-full lg:w-5/12 bg-black p-6 rounded-2xl shadow-lg flex flex-col h-[500px] lg:h-[600px]">
                     <div className="flex justify-between items-center mb-4">
                         <div className="flex items-center gap-2">
@@ -185,7 +169,6 @@ const AudioPage = () => {
                     >
                     </div>
                 </div>
-
             </div>
         </main>
     )
