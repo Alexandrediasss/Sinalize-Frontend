@@ -5,19 +5,18 @@ import { Instagram, Facebook, Twitter, Github } from 'lucide-react'
 const menuLinks = [
     { name: 'Início', path: '/' },
     { name: 'Áudio', path: '/audio' },
-    { name: 'Câmera', path: '/camera' },
-    { name: 'Sobre', path: '/sobre' },
+    { name: 'Câmera', path: '/camera' }
 ]
 
 function Footer() {
     return (
-        <footer className="bg-amber-400 text-black">
+        <footer className="bg-[#69ACD5] text-black">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
                     <div className="space-y-4">
                         <h2 className="text-2xl font-bold">SINALIZE</h2>
                         <p className="text-sm max-w-xs">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            Tradução entre libras e português em tempo real.
                         </p>
                         <div className="flex space-x-4">
                             <a href="#" className="hover:text-gray-700">

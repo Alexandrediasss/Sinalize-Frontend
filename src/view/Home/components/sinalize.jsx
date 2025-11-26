@@ -1,6 +1,6 @@
 function Sinalize() {
   return (
-    <div className="bg-amber-400">
+    <div className="bg-[#69ACD5]">
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center text-center md:text-left">
           <div>
@@ -10,10 +10,8 @@ function Sinalize() {
           </div>
           <div>
             <p className="text-lg leading-8">
-              "Sinalize" é uma plataforma dedicada á
-              <strong> tradução da Língua Brasileira de Sinais (Libras)</strong>. 
-              Nosso objetivo é quebrar as barreiras de comunicação entre ouvintes e a comunidade surda, 
-              utilizando tecnologia para oferecer traduções em tempo real de forma acessível e inclusiva.
+              Sinalize é uma plataforma web que realiza a tradução bidirecional entre a Língua Brasileira de Sinais (Libras) e o
+              Português em tempo real por meio de visão computacional, inteligência artificial representações visuais animadas.
             </p>
           </div>
 
