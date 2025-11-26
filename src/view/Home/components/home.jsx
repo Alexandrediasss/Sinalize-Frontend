@@ -1,4 +1,4 @@
-import Celular from "../../../assets/celular.png"
+import Celular from "../../../assets/img/celular.png"
 
 function Home() {
   return (
